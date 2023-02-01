@@ -12,9 +12,7 @@ import User from './user.entity';
       username: 'root',
       password: '',
       database: 'nestjs_hibakezeles',
-      entities: [
-        User
-      ],
+      entities: [User],
       synchronize: true,
     }),
   ],
